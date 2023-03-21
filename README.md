@@ -1,5 +1,5 @@
 # mini projects 
-<div><center> <img width="192" src="https://user-images.githubusercontent.com/112553001/225093881-fe86bfb7-8bf7-431f-bccb-dd3deac76f7a.png" alt=""><img width="192" src="https://user-images.githubusercontent.com/112553001/225093881-fe86bfb7-8bf7-431f-bccb-dd3deac76f7a.png" alt=""><img width="192" src="https://user-images.githubusercontent.com/112553001/225093881-fe86bfb7-8bf7-431f-bccb-dd3deac76f7a.png" alt=""><img width="192" src="https://user-images.githubusercontent.com/112553001/225093881-fe86bfb7-8bf7-431f-bccb-dd3deac76f7a.png" alt=""><img width="192" src="https://user-images.githubusercontent.com/112553001/225093881-fe86bfb7-8bf7-431f-bccb-dd3deac76f7a.png" alt=""></center>
+<div><center> <img width="192" src="https://user-images.githubusercontent.com/112553001/225093881-fe86bfb7-8bf7-431f-bccb-dd3deac76f7a.png" alt=""><img width="192" src="https://user-images.githubusercontent.com/112553001/225093881-fe86bfb7-8bf7-431f-bccb-dd3deac76f7a.png" alt=""><img width="192" src="https://user-images.githubusercontent.com/112553001/225093881-fe86bfb7-8bf7-431f-bccb-dd3deac76f7a.png" alt=""><img width="192" src="https://user-images.githubusercontent.com/112553001/225093881-fe86bfb7-8bf7-431f-bccb-dd3deac76f7a.png" alt=""></center>
 </div>
 
   
