@@ -1,6 +1,7 @@
-# mini projects 
-<div><center> <img width="192" src="https://user-images.githubusercontent.com/112553001/225093881-fe86bfb7-8bf7-431f-bccb-dd3deac76f7a.png" alt=""><img width="192" src="https://user-images.githubusercontent.com/112553001/225093881-fe86bfb7-8bf7-431f-bccb-dd3deac76f7a.png" alt=""><img width="192" src="https://user-images.githubusercontent.com/112553001/225093881-fe86bfb7-8bf7-431f-bccb-dd3deac76f7a.png" alt=""><img width="192" src="https://user-images.githubusercontent.com/112553001/225093881-fe86bfb7-8bf7-431f-bccb-dd3deac76f7a.png" alt=""></center>
-</div>
+# arcade place
+
+<img width="1092" src="https://user-images.githubusercontent.com/112553001/228508629-a36fc709-a21c-477a-8bb5-a6d5e8bb1da5.jpg" alt="">
+
 
   
 | PROJECT | GitHub Pages | REPOS | 
@@ -12,3 +13,5 @@
 | Growing Circle | [Github Page](https://martscastrillo.github.io/growing_circle_js/) | [Repo](https://github.com/martscastrillo/growing_circle_js) |
 | Tic Tac Toe | [Github Page](https://martscastrillo.github.io/tic-tac-toe-js/) | [Repo](https://github.com/martscastrillo/tic-tac-toe-js) | 
 <!-- | Connect Four | [Github Page](    ) | [Repo](https://github.com/martscastrillo/connect_four_js) | -->
+
+
