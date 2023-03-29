@@ -10,5 +10,5 @@
 | Rock Paper Scissors | [Github Page](https://martscastrillo.github.io/rock-paper-scissors-js/) | [Repo](https://github.com/martscastrillo/rock-paper-scissors-js) |
 | Random Color | [Github Page](https://martscastrillo.github.io/random-color_js/) |[Repo](https://github.com/martscastrillo/random-color_js) |
 | Growing Circle | [Github Page](https://martscastrillo.github.io/growing_circle_js/) | [Repo](https://github.com/martscastrillo/growing_circle_js) |
-<!-- | Connect Four | [Github Page](    ) | [Repo](https://github.com/martscastrillo/connect_four_js) |
-| Tic Tac Toe | [Github Page](    ) | [Repo](https://github.com/martscastrillo/tic-tac-toe-js) |  -->
+| Tic Tac Toe | [Github Page](https://martscastrillo.github.io/tic-tac-toe-js/) | [Repo](https://github.com/martscastrillo/tic-tac-toe-js) | 
+<!-- | Connect Four | [Github Page](    ) | [Repo](https://github.com/martscastrillo/connect_four_js) | -->
