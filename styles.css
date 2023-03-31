@@ -1,69 +1,139 @@
-*{
+* {
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
-	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-family: "Tilt Neon", cursive;
 }
-body{
+body {
 	height: 100vh;
-	background-image: url(./fondo2.png);
+	background-image: url(./fondo.png);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
 }
-html{
+html {
 	font-size: 16px;
 }
-.div{
+.div {
 	height: 100%;
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	gap:140px;
+	gap: 140px;
 }
-.h1{
+.h1 {
 	font-size: 58px;
 	text-transform: uppercase;
-	font-family: 'Tilt Neon', cursive;
+	font-family: "Tilt Neon", cursive;
 
 	border-radius: 2rem;
 	padding: 0.4em;
-	color: #fff;
-			  text-shadow:
-			  0 0 2px #fff,
-			  0 0 4px #fff,
-			  0 0 6px #fff,
-			  0 0 10px #bc13fe,
-			  0 0 45px #bc13fe,
-			  0 0 55px #bc13fe,
-			  0 0 70px #bc13fe,
-			  0 0 80px #bc13fe;
+	color: aqua;
+	text-shadow: 0 0 2px aqua, 0 0 4px aqua, 0 0 6px aqua, 0 0 10px #bc13fe,
+		0 0 45px #bc13fe, 0 0 55px #bc13fe, 0 0 70px #bc13fe, 0 0 80px #bc13fe;
 }
-.boxes{
-	width: 84vmin;
-	
+
+.boxes {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	flex-wrap: wrap;
-	gap: 30px;
+	gap: 60px;
+	width: 80%;
 }
-.gamebox{
+.onebox {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+}
+
+.spanlogo {
+	display: flex;
+	gap: 20px;
+}
+a {
+	text-decoration: none;
+}
+.dev_logo,
+p {
+	text-transform: uppercase;
+	font-size: 18px;
+	color: rgb(255, 255, 255);
+	text-shadow: 0 0 2px aqua, 0 0 4px aqua, 0 0 6px aqua, 0 0 10px #1313fe,
+		0 0 45px #1313fe, 0 0 55px #1313fe, 0 0 70px #1313fe, 0 0 80px #1313fe;
+}
+.dev_logo:hover {
+	color: rgb(13, 4, 183);
+}
+.gamebox {
 	border: 0.2rem solid #fff;
-  border-radius: 2rem;
-  padding: 0.4em;
-  box-shadow: 0 0 .2rem #fff,
-            0 0 .2rem #fff,
-            0 0 2rem #bc13fe,
-            0 0 0.8rem #bc13fe,
-            0 0 2.8rem #bc13fe,
-            inset 0 0 1.3rem #bc13fe; 
-			width: 300px;
-			height: 300px;
-			background-color: aqua;
-			background-image: url();
+	border-radius: 2rem;
+	padding: 0.4em;
+	color: aqua;
+	text-transform: uppercase;
+	box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
+		0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
+	width: 150px;
+	height: 150px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-family: "Tilt Neon", cursive;
+}
+.gamebox:hover {
+	transform: scale(1.05, 1.05);
+	transition: transform 1s;
+}
+.gamebox:not(:hover) {
+	transition: transform 1s;
+}
+/* @media all and (max-width: 768px) {
+		width: 200px;
+		height: 200px;
+	} */
+.tictactoe {
+	background-image: url(./game_logo_0000_Objeto-inteligente-vectorial.png);
+	background-size: 50%;
+	background-color: #d7b9ff;
 	background-repeat: no-repeat;
-	background-size: cover;
+	background-position: center;
+}
+.circle {
+	background-image: url(./game_logo_0014_Objeto-inteligente-vectorial.png);
+	background-size: 50%;
+	background-color: #d7b9ff;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.memo {
+	background-image: url(./game_logo_0002_Objeto-inteligente-vectorial.png);
+	background-size: 50%;
+	background-color: #d7b9ff;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.rockpaperscissors {
+	background-image: url(./game_logo_0015_Objeto-inteligente-vectorial.png);
+	background-size: 50%;
+	background-color: #d7b9ff;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.whacamole {
+	background-image: url(./game_logo_0001_Objeto-inteligente-vectorial.png);
+	background-size: 50%;
+	background-color: #d7b9ff;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.randomcolor {
+	background-image: url(./game_logo_0013_Objeto-inteligente-vectorial.png);
+	background-size: 50%;
+	background-color: #d7b9ff;
+	background-repeat: no-repeat;
 	background-position: center;
 }
