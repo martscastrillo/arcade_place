@@ -6,6 +6,12 @@
 @import "layout/block3";
 
 @import "layout/footer"; */
+@mixin images() {
+	background-size: 50%;
+	background-color: #d7b9ff;
+	background-repeat: no-repeat;
+	background-position: center;
+}
 
 * {
 	padding: 0;
@@ -48,7 +54,9 @@ html {
 	align-items: center;
 	justify-content: center;
 	gap: 60px;
-	width: 80%;
+	flex-wrap: wrap;
+	width: 40%;
+
 }
 .onebox {
 	display: flex;
@@ -90,7 +98,8 @@ p {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	font-family: "Tilt Neon", cursive;
+	
+
 }
 .gamebox:hover {
 	transform: scale(1.05, 1.05);
@@ -105,44 +114,31 @@ p {
 	} */
 .tictactoe {
 	background-image: url("../images/game_logo_0000_Objeto-inteligente-vectorial.png");
-	background-size: 50%;
-	background-color: #d7b9ff;
-	background-repeat: no-repeat;
-	background-position: center;
+	@include images();
 }
 .circle {
 	background-image: url("../images/game_logo_0014_Objeto-inteligente-vectorial.png");
-	background-size: 50%;
-	background-color: #d7b9ff;
-	background-repeat: no-repeat;
-	background-position: center;
+	@include images();
 }
 .memo {
 	background-image: url("../images/game_logo_0002_Objeto-inteligente-vectorial.png");
-	background-size: 50%;
-	background-color: #d7b9ff;
-	background-repeat: no-repeat;
-	background-position: center;
+	@include images();
 }
 .rockpaperscissors {
 	background-image: url("../images/game_logo_0015_Objeto-inteligente-vectorial.png");
-	background-size: 50%;
-	background-color: #d7b9ff;
-	background-repeat: no-repeat;
-	background-position: center;
+	@include images();
 }
 .whacamole {
 	background-image: url("../images/game_logo_0001_Objeto-inteligente-vectorial.png");
-	background-size: 50%;
-	background-color: #d7b9ff;
-	background-repeat: no-repeat;
-	background-position: center;
+	@include images();
 }
 
 .randomcolor {
 	background-image: url("../images/game_logo_0013_Objeto-inteligente-vectorial.png");
-	background-size: 50%;
-	background-color: #d7b9ff;
-	background-repeat: no-repeat;
-	background-position: center;
+	@include images();
+}
+
+.flipacoin {
+	background-image: url("../images/game_logo_0003_Objeto-inteligente-vectorial.png");
+	@include images();
 }
