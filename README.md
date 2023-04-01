@@ -2,6 +2,28 @@
 
 <img width="1092" src="https://user-images.githubusercontent.com/112553001/228508629-a36fc709-a21c-477a-8bb5-a6d5e8bb1da5.jpg" alt="">
 
+Está dentro de una estructura de carpetas preparada para poder funcionar, los archivos editables se encuentran dentro de la carpeta `src/`: son los ficheros de nuestra página web, como HTML, CSS, JS...
+
+> **NOTA:** Necesitas tener instalado [Node JS](https://nodejs.org/)
+
+### 📌 Pasos para arrancar el proyecto:
+
+Si el proyecto no tiene la carpeta node_modules, deberñas ejecutar el siguiente comando:
+
+`npm install`
+
+Una vez hemos instalado las dependencias, vamos a arrancar el proyecto. **El proyecto hay que arrancarlo cada vez que te pongas a programar.** Para ello ejecuta el comando:
+
+`npm start`
+
+Con este comando se podrá abrir la web del mismo modo que lo haría el Live Server (Go live) de VSCode.
+
+### 📌 Finalidad del proyecto:
+
+Este proyecto es la unión de varios mini proyectos de JS Vanilla, son todo proyectos pequeños y entretenidos, algunos de ellos juegos, otros simplemente complementos a juegos o distracciones sin más. Pensé que la mejor manera de unificarlos todos y poder accerder a ellos era crear un arcade virtual donde además de poder mostrar mi proyecto, se pueda disfrutar de los juegos.
+
+Espero que lo disfrutes 😊
+
 | PROJECT | GitHub Pages | REPOS | 
 | -- | -- | -- |
 | Memory Game | [Github Page](martscastrillo.github.io/memory-js/) | [Repo](https://github.com/martscastrillo/memory-js) |
