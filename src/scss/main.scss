@@ -47,6 +47,7 @@ html {
 	color: aqua;
 	text-shadow: 0 0 2px aqua, 0 0 4px aqua, 0 0 6px aqua, 0 0 10px #bc13fe,
 		0 0 45px #bc13fe, 0 0 55px #bc13fe, 0 0 70px #bc13fe, 0 0 80px #bc13fe;
+		animation: flicker 3s linear infinite;
 }
 
 .boxes {
@@ -72,6 +73,7 @@ html {
 }
 a {
 	text-decoration: none;
+	
 }
 .dev_logo,
 p {
@@ -115,6 +117,7 @@ p {
 .tictactoe {
 	background-image: url("../images/game_logo_0000_Objeto-inteligente-vectorial.png");
 	@include images();
+
 }
 .circle {
 	background-image: url("../images/game_logo_0014_Objeto-inteligente-vectorial.png");
@@ -123,6 +126,7 @@ p {
 .memo {
 	background-image: url("../images/game_logo_0002_Objeto-inteligente-vectorial.png");
 	@include images();
+
 }
 .rockpaperscissors {
 	background-image: url("../images/game_logo_0015_Objeto-inteligente-vectorial.png");
@@ -131,6 +135,7 @@ p {
 .whacamole {
 	background-image: url("../images/game_logo_0001_Objeto-inteligente-vectorial.png");
 	@include images();
+	
 }
 
 .randomcolor {
@@ -141,4 +146,14 @@ p {
 .flipacoin {
 	background-image: url("../images/game_logo_0003_Objeto-inteligente-vectorial.png");
 	@include images();
+}
+@keyframes flicker {
+	0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+		//text-shadow: none;
+    opacity: .99;
+		
+	}
+	20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+		opacity: 0.4;
+	}
 }
