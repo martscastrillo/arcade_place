@@ -32,7 +32,9 @@ Espero que lo disfrutes 😊
 | Random Color | [Github Page](https://martscastrillo.github.io/random-color_js/) |[Repo](https://github.com/martscastrillo/random-color_js) |
  | Growing Circle | [Github Page](https://martscastrillo.github.io/growing_circle_js/) | [Repo](https://github.com/martscastrillo/growing_circle_js) |
  | Tic Tac Toe | [Github Page](https://martscastrillo.github.io/tic-tac-toe-js/) | [Repo](https://github.com/martscastrillo/tic-tac-toe-js) | 
+ | Flip a Coin | [Github Page](https://martscastrillo.github.io/flip_a_coin_js/) | [Repo](https://github.com/martscastrillo/flip_a_coin_js) | 
  <!-- | Connect Four | [Github Page](    ) | [Repo](https://github.com/martscastrillo/connect_four_js) | -->
  
- 
-<img width="2047" alt="Captura de Pantalla 2023-03-31 a las 14 16 01" src="https://user-images.githubusercontent.com/112553001/229117604-f63b7d1d-b6f3-40b1-bc44-d88fb237e597.png">
+ <img width="2031" alt="Captura de Pantalla 2023-04-01 a las 12 50 51" src="https://user-images.githubusercontent.com/112553001/229284523-34d6dbf4-7d19-4335-8096-d67a83dd3031.png">
+
+
