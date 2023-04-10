@@ -83,6 +83,14 @@ a {
 	text-decoration: none;
 	
 }
+p{
+	height: 12px;
+	@media all and (min-width: 768px) {
+	
+		height: 30px;
+		
+	} 
+}
 .dev_logo,
 p {
 	display: flex;
@@ -90,14 +98,16 @@ p {
 	text-transform: uppercase;
 	font-size: 12px;
 	color: rgb(255, 255, 255);
-	height: 12px;
+
 	text-align: center;
 	text-shadow: 0 0 2px aqua, 0 0 4px aqua, 0 0 6px aqua, 0 0 10px #1313fe,
 		0 0 45px #1313fe, 0 0 55px #1313fe, 0 0 70px #1313fe, 0 0 80px #1313fe;
 		@media all and (min-width: 768px) {
-			font-size: 14px;
-			height: 30px;
+			font-size: 14px;			
 		} 
+	}
+	.dev_logo{
+		margin-bottom: 12px;
 	}
 .dev_logo:hover {
 	color: rgb(13, 4, 183);
