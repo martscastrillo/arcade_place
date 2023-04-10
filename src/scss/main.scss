@@ -39,7 +39,7 @@ html {
 
 }
 .h1 {
-	font-size: 45px;
+	font-size: 35px;
 	text-transform: uppercase;
 	font-family: "Tilt Neon", cursive;
 	border-radius: 2rem;
@@ -56,9 +56,8 @@ html {
 .boxes {
 	display: flex;
 flex-direction: row;
-	align-items: center;
-	justify-content: center;
-	gap: 20px;
+	justify-content: space-around;
+	gap: 5px;
 	flex-wrap: wrap;
 	width: 70%;
 	 @media all and (min-width: 768px) {
@@ -73,6 +72,7 @@ flex-direction: row;
 	align-items: center;
 	justify-content: center;
 	gap: 20px;
+	width: 120px;
 }
 
 .spanlogo {
@@ -85,16 +85,18 @@ a {
 }
 .dev_logo,
 p {
+	display: flex;
+	align-items: center;
 	text-transform: uppercase;
 	font-size: 12px;
 	color: rgb(255, 255, 255);
-	width: 70%;
+	height: 12px;
 	text-align: center;
 	text-shadow: 0 0 2px aqua, 0 0 4px aqua, 0 0 6px aqua, 0 0 10px #1313fe,
 		0 0 45px #1313fe, 0 0 55px #1313fe, 0 0 70px #1313fe, 0 0 80px #1313fe;
 		@media all and (min-width: 768px) {
-			font-size: 18px;
-			width: 100%;
+			font-size: 14px;
+			height: 30px;
 		} 
 	}
 .dev_logo:hover {
@@ -162,6 +164,10 @@ p {
 
 .flipacoin {
 	background-image: url("../images/game_logo_0003_Objeto-inteligente-vectorial.png");
+	@include images();
+}
+.calculator {
+	background-image: url("../images/game_logo_0012_Objeto-inteligente-vectorial.png");
 	@include images();
 }
 @keyframes flicker {
