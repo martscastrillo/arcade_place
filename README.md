@@ -37,7 +37,5 @@ Espero que lo disfrutes 😊
 
  <!-- | Connect Four | [Github Page](    ) | [Repo](https://github.com/martscastrillo/connect_four_js ) | -->
  
- <img width="2031" alt="Captura de Pantalla 2023-04-01 a las 12 50 51" src="https://user-images.githubusercontent.com/112553001/229284523-34d6dbf4-7d19-4335-8096-d67a83dd3031.png">
- 
-
+<img width="1432" alt="Captura de Pantalla 2023-04-12 a las 21 37 57" src="https://user-images.githubusercontent.com/112553001/231566336-d61dff09-168d-4e91-9c99-5efd3bd0e289.png">
 
