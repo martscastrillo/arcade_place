@@ -63,10 +63,8 @@ html {
 	flex-direction: row;
 	justify-content: space-around;
 	gap: 5px;
-	flex-wrap: wrap;
-	
+	flex-wrap: wrap;	
 	width: 60%;
-	background-color: #1313fe;
 	@media all and (min-width: 768px) {
 		width: 50%;
 		gap: 20px;
