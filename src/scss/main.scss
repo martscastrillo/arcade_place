@@ -19,6 +19,7 @@
 	box-sizing: border-box;
 	font-family: "Tilt Neon", cursive;
 }
+
 body {
 	height: 100vh;
 	background-image: url("../images/fondo.png");
@@ -26,9 +27,11 @@ body {
 	background-size: cover;
 	background-position: center;
 }
+
 html {
 	font-size: 16px;
 }
+
 .div {
 	height: 100%;
 	display: flex;
@@ -38,6 +41,7 @@ html {
 	gap: 40px;
 
 }
+
 .h1 {
 	font-size: 35px;
 	text-transform: uppercase;
@@ -47,25 +51,29 @@ html {
 	color: aqua;
 	text-shadow: 0 0 2px aqua, 0 0 4px aqua, 0 0 6px aqua, 0 0 10px #bc13fe,
 		0 0 45px #bc13fe, 0 0 55px #bc13fe, 0 0 70px #bc13fe, 0 0 80px #bc13fe;
-		animation: flicker 3s linear infinite;
-		@media all and (min-width: 768px) {
-			font-size: 58px;
-		} 
+	animation: flicker 3s linear infinite;
+
+	@media all and (min-width: 768px) {
+		font-size: 58px;
+	}
 }
 
 .boxes {
 	display: flex;
-flex-direction: row;
+	flex-direction: row;
 	justify-content: space-around;
 	gap: 5px;
 	flex-wrap: wrap;
-	width: 70%;
-	 @media all and (min-width: 768px) {
-		width: 40%;
+	
+	width: 60%;
+	background-color: #1313fe;
+	@media all and (min-width: 768px) {
+		width: 50%;
 		gap: 20px;
-	} 
+	}
 
 }
+
 .onebox {
 	display: flex;
 	flex-direction: column;
@@ -79,18 +87,22 @@ flex-direction: row;
 	display: flex;
 	gap: 20px;
 }
+
 a {
 	text-decoration: none;
-	
+
 }
-p{
+
+p {
 	height: 12px;
+
 	@media all and (min-width: 768px) {
-	
+
 		height: 30px;
-		
-	} 
+
+	}
 }
+
 .dev_logo,
 p {
 	display: flex;
@@ -102,16 +114,20 @@ p {
 	text-align: center;
 	text-shadow: 0 0 2px aqua, 0 0 4px aqua, 0 0 6px aqua, 0 0 10px #1313fe,
 		0 0 45px #1313fe, 0 0 55px #1313fe, 0 0 70px #1313fe, 0 0 80px #1313fe;
-		@media all and (min-width: 768px) {
-			font-size: 14px;			
-		} 
+
+	@media all and (min-width: 768px) {
+		font-size: 14px;
 	}
-	.dev_logo{
-		margin-bottom: 12px;
-	}
+}
+
+.dev_logo {
+	margin-bottom: 12px;
+}
+
 .dev_logo:hover {
 	color: rgb(13, 4, 183);
 }
+
 .gamebox {
 	border: 0.2rem solid #fff;
 	border-radius: 2rem;
@@ -126,19 +142,23 @@ p {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
+
 	@media all and (min-width: 768px) {
 		width: 100px;
 		height: 100px;
-	} 
+	}
 
 }
+
 .gamebox:hover {
 	transform: scale(1.05, 1.05);
 	transition: transform 1s;
 }
+
 .gamebox:not(:hover) {
 	transition: transform 1s;
 }
+
 /* @media all and (max-width: 768px) {
 		width: 200px;
 		height: 200px;
@@ -148,23 +168,27 @@ p {
 	@include images();
 
 }
+
 .circle {
 	background-image: url("../images/game_logo_0014_Objeto-inteligente-vectorial.png");
 	@include images();
 }
+
 .memo {
 	background-image: url("../images/game_logo_0002_Objeto-inteligente-vectorial.png");
 	@include images();
 
 }
+
 .rockpaperscissors {
 	background-image: url("../images/game_logo_0015_Objeto-inteligente-vectorial.png");
 	@include images();
 }
+
 .whacamole {
 	background-image: url("../images/game_logo_0001_Objeto-inteligente-vectorial.png");
 	@include images();
-	
+
 }
 
 .randomcolor {
@@ -176,21 +200,38 @@ p {
 	background-image: url("../images/game_logo_0003_Objeto-inteligente-vectorial.png");
 	@include images();
 }
+
 .calculator {
 	background-image: url("../images/game_logo_0012_Objeto-inteligente-vectorial.png");
 	@include images();
 }
-.rollthedice{
+
+.rollthedice {
 	background-image: url("../images/game_logo_0004_Objeto-inteligente-vectorial.png");
 	@include images();
 }
+
 @keyframes flicker {
-	0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
+
+	0%,
+	19.999%,
+	22%,
+	62.999%,
+	64%,
+	64.999%,
+	70%,
+	100% {
 		//text-shadow: none;
-    opacity: .99;
-		
+		opacity: .99;
+
 	}
-	20%, 21.999%, 63%, 63.999%, 65%, 69.999% {
+
+	20%,
+	21.999%,
+	63%,
+	63.999%,
+	65%,
+	69.999% {
 		opacity: 0.4;
 	}
 }
