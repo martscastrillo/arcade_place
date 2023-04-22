@@ -180,6 +180,10 @@ p {
 	background-image: url("../images/game_logo_0012_Objeto-inteligente-vectorial.png");
 	@include images();
 }
+.rollthedice{
+	background-image: url("../images/game_logo_0004_Objeto-inteligente-vectorial.png");
+	@include images();
+}
 @keyframes flicker {
 	0%, 19.999%, 22%, 62.999%, 64%, 64.999%, 70%, 100% {
 		//text-shadow: none;
