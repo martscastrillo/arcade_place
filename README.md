@@ -33,8 +33,8 @@ Espero que lo disfrutes 😊
  | Growing Circle | [Github Page](https://martscastrillo.github.io/growing_circle_js/) | [Repo](https://github.com/martscastrillo/growing_circle_js) |
  | Tic Tac Toe | [Github Page](https://martscastrillo.github.io/tic-tac-toe-js/) | [Repo](https://github.com/martscastrillo/tic-tac-toe-js) | 
  | Flip a Coin | [Github Page](https://martscastrillo.github.io/flip_a_coin_js/) | [Repo](https://github.com/martscastrillo/flip_a_coin_js) | 
-| Calculator | [Github Page](https://github.com/martscastrillo/calculator_js) | [Repo](https://github.com/martscastrillo/calculator_js) | 
-| Roll the dice | [Github Page](https://github.com/martscastrillo/roll_the_dice_js) | [Repo](https://github.com/martscastrillo/roll_the_dice_js)| 
+| Calculator | [Github Page](https://martscastrillo.github.io/calculator_js) | [Repo](https://github.com/martscastrillo/calculator_js) | 
+| Roll the dice | [Github Page](https://martscastrillo.github.io/roll_the_dice_js) | [Repo](https://github.com/martscastrillo/roll_the_dice_js)| 
 
  <!-- | Connect Four | [Github Page](    ) | [Repo](https://github.com/martscastrillo/connect_four_js ) | -->
  
