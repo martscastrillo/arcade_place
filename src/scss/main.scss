@@ -58,15 +58,24 @@ html {
 }
 
 .boxes {
-  display: flex;
+ /*  display: flex;
   flex-direction: row;
   justify-content: space-around;
   gap: 5px;
-  flex-wrap: wrap;
-  width: 60%;
+  flex-wrap: wrap; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-left: 20%;
+  margin-right:  20%;
   @media all and (min-width: 768px) {
-    width: 50%;
-    gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 10%;
+    margin-right:  10%;
+  }
+  @media all and (min-width: 1200px) {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    margin-left: 20%;
+    margin-right:  20%;
   }
 }
 
@@ -106,6 +115,7 @@ p {
   font-size: 12px;
   color: rgb(255, 255, 255);
   text-align: center;
+
   text-shadow: 0 0 2px aqua, 0 0 4px aqua, 0 0 6px aqua, 0 0 10px #1313fe,
     0 0 45px #1313fe, 0 0 55px #1313fe, 0 0 70px #1313fe, 0 0 80px #1313fe;
   @media all and (min-width: 768px) {
@@ -123,20 +133,26 @@ p {
 
 .gamebox {
   border: 0.2rem solid #fff;
-  border-radius: 2rem;
+  border-radius: 20px;
   padding: 0.4em;
   color: aqua;
   text-transform: uppercase;
   box-shadow: 0 0 0.2rem #fff, 0 0 0.2rem #fff, 0 0 2rem #bc13fe,
     0 0 0.8rem #bc13fe, 0 0 2.8rem #bc13fe, inset 0 0 1.3rem #bc13fe;
-  width: 80px;
-  height: 80px;
+  width: 60px;
+  height: 60px;
+
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  margin-top: 13px;
+ 
   @media all and (min-width: 768px) {
+    width: 80px;
+    height: 80px;
+  }
+  @media all and (min-width: 1200px) {
     width: 100px;
     height: 100px;
   }
@@ -198,6 +214,10 @@ p {
 .rollthedice {
   background-image: url("../images/game_logo_0004_Objeto-inteligente-vectorial.png");
   @include images();
+}
+.loading {
+  background-color: rgb(87, 54, 255);
+
 }
 
 @keyframes flicker {
